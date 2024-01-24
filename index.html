@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;
+1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- FIM GOOLE FONTS -->
+    <!-- BOOSTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- BOOSTSTRAP-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>VINI</title> 
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#espec">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>   
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="#contato">
+                    <button>contato</button>
+                </a>
+            </div><!-- btn-contato -->
+            <div class="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="inerface">
+                <div class="flex">
+                    <div id="inicio" class="txt-topo">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL.</h1>
+                        <P>"Se você contar sua ideia para 10 pessoas e 9 delas 
+                            disser que você está maluco, provavelmente você está fazendo algo inovador."</P>
+                        <h2>Nolan Bushnell</h2>
+
+                        <div class="btn-contato">
+                            <a href="#contato">
+                                <button>entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!-- txt-topo-->
+                        
+                    <div class="img-topo">
+                        <img src="images/eu4.png" alt="">
+                    </div><!-- img-topo -->
+                </div><!-- flex -->
+            </div><!-- interface -->
+        </section><!-- topo do site -->
+
+        <section class="especialidades">
+            <div  id="espec" class="interface">
+                <h2 class="titulo">MEUS <span>CONHECIMENTOS.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-py"></i>
+                        <h3>PYTHON</h3>
+                        <p>conhecimento básico em python, estudado durante
+                        o primero período da faculdade.
+                        </p>
+                    </div><!-- especialidades-box -->
+                    
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-html"></i>
+                        <h3>HTML</h3>
+                        <p>cenhecimento básico em html, adquirido através de cursos complementares.</p>
+                    </div><!-- especialidades-box -->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-css"></i>
+                        <h3>CSS</h3>
+                        <p>conhecimento básico em css, também adquirido por cursos online</p>
+                    </div><!-- especialidades-box -->
+                </div><!-- flex -->
+            </div><!-- interface -->
+        </section><!-- especialidades -->
+
+        <section class="sobre">
+            <div  id="sobre" class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/eu4.png" alt="">
+                    </div><!-- img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU VINÍCIUS ANDRADE.</span></h2>
+                        <p>Me chamo Vinicius e estou cursando Engenharia de Software ( UniSenai ), 
+                            estou no terceiro período e busco uma oportunidade na área.
+                            Tenho diploma de ensino médio técnico ( em eletrônica ) 
+                            formado em 2021 e já trabalhei como aux. de produção, atualmente trabalho como aux. 
+                            administrativo (empresa Ruliwi) início em 07/2023.
+                            </p>
+                        <p> desde já, agradeço.</p>
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/vin%C3%ADcius-andrade-michaki-h%C3%BCbner-95b612266">
+                                <button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://whatsapp.com/dl/"><button><i class="bi bi-whatsapp"></i></button></a>
+                            <a href="https://github.com/V1N1nam"><button><i class="bi bi-github"></i></button></a>
+                        </div>
+                    </div><!-- txt-sobre-->
+                </div><!-- flex -->
+            </div><!-- interface -->
+        </section><!-- sobre -->
+
+        <section class="portifolio">
+            <div id="projetos" class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/ProjetoTempoA.png);">
+                        <div class="overlay"><a href="https://v1n1nam.github.io/Tempo/">Projeto 1</a></div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/breve.jpg.png);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/breve.jpg.png);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!-- flex -->
+            <p class="txt_por"><span>PROJETO 1</span>:Uma página web para verificação do tempo, umidade e temperatura 
+                em determinada cidade (global); Utilizando uma API juntamente com um codigo simples de java script para localizar 
+                e fornecer os dados solicitados, para criação da pagina foi utilizado HTML e na estilização geral CSS. Para mais informações
+                * <a href="https://github.com/V1N1nam/Tempo">Repositório git hub</a> *</p> <!-- Projeto 1 -->
+            
+            <p class="txt_por"><span>PROJETO 2</span>: <a href=""> </a> </p> <!-- Projeto 2-->
+
+            <p class="txt_por"><span>PROJETO 3</span>: <a href=""> </a> </p> <!-- Projeto 3-->
+            
+            </div><!-- interface -->
+        </section><!-- portifolio -->
+          
+        <section class="form">
+            <div id="contato" class="inteface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="https://formspree.io/f/xwkgpjop" method="post">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome:" required>
+                    <input type="text" name="e-mail" id="email" placeholder="Seu e-mail:" required>
+                    <input type="text" name="telefone" id="telefone" placeholder="Seu telefone para contato:">
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+                </form>
+            </div><!-- interface -->
+        </section><!-- form -->
+    </main>
+
+    <footer>
+        <div class="interface">
+                <div class="line-footer">
+            <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" alt="Logo VINI">
+                    </div><!-- logg-footer -->
+                    <div class="btn-social">
+                        <a href="https://www.linkedin.com/in/vin%C3%ADcius-andrade-michaki-h%C3%BCbner-95b612266">
+                            <button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://whatsapp.com/dl/"><button><i class="bi bi-whatsapp"></i></button></a>
+                        <a href="https://github.com/V1N1nam"><button><i class="bi bi-github"></i></button></a>
+                    </div>
+                </div>
+            </div><!-- line-footer -->
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-at-fill"></i><a href="mailto:hubner.vini@gmail.com">hubner.vini@gmail.com</a></p>
+            </div><!-- line-footer -->
+        </div><!-- interface -->
+    </footer>
+
+</body>
+</html>
