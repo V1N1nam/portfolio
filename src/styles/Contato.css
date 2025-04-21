@@ -8,6 +8,9 @@
 body {
   background-color: #000;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .interface {
@@ -21,11 +24,12 @@ body {
 
 button:hover,
 form .btn-enviar input:hover {
-  box-shadow: 0px 0px 8px #00ff08c0;
+  box-shadow: 0px 0px 8px #45cf57;
   transform: scale(1.05);
 }
 
 h2.titulo {
+  padding: 10px;
   color: #fff;
   font-size: 34px;
   text-align: center;
@@ -35,7 +39,7 @@ h2.titulo {
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 600;
-  background-color: #00ff08;
+  background-color: #45cf57;
   border: 0;
   border-radius: 30px;
   cursor: pointer;
@@ -43,17 +47,25 @@ h2.titulo {
 }
 
 section.form {
-  padding: 80px 4%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4%;
 }
 
 form {
-  max-width: 500px;
+  border: 2px solid #45cf57;
+  box-shadow: 0 0 15px 4px rgba(69, 207, 87, 0.3);
+  border-radius: 12px;
+  padding: 30px;
+  width: 500px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-  margin-top: 40px;
+  background-color: #0a0a0a;
 }
 
 form input,
@@ -80,9 +92,49 @@ form .btn-enviar {
 
 form .btn-enviar input {
   width: 120px;
-  background-color: #00ff08;
+  background-color: #45cf57;
   color: #000;
   font-weight: 700;
   cursor: pointer;
   transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  h2.titulo {
+    font-size: 28px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 16px;
+  }
+
+  form .btn-enviar input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  h2.titulo {
+    font-size: 24px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
+
+  form .btn-enviar input {
+    padding: 15px;
+  }
 }
