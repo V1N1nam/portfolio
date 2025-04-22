@@ -1,240 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- GOOGLE FONTS -->
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="/portfolio/Home.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;
-1,100;1,200;1,300;1,400;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
       rel="stylesheet"
     />
-    <!-- FIM GOOLE FONTS -->
-    <!-- BOOSTSTRAP-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
-    <!-- BOOSTSTRAP-->
-    <link rel="stylesheet" href="../portfolio/src/styles/style.css" />
-
-    <title>VINI</title>
   </head>
   <body>
-    <header>
-      <div class="interface">
-        <!--logo-->
-
-        <nav class="menu-desktop">
-          <ul>
-            <li class="teste"><a href="#inicio">Início</a></li>
-            <li><a href="#espec">Especialidades</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!--interface-->
-    </header>
-
     <main>
-      <section class="topo-do-site">
-        <div class="inerface">
-          <div class="flex">
-            <div id="inicio" class="txt-topo">
-              <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL.</h1>
-              <p>
-                "Se você contar sua ideia para 10 pessoas e 9 delas disser que
-                você está maluco, provavelmente você está fazendo algo
-                inovador."
-              </p>
-              <h2>Nolan Bushnell</h2>
-            </div>
-            <!-- txt-topo-->
-          </div>
-          <!-- flex -->
-        </div>
-        <!-- interface -->
-      </section>
-      <!-- topo do site -->
-
-      <section class="especialidades">
-        <div id="espec" class="interface">
-          <h2 class="titulo">MEUS <span>CONHECIMENTOS.</span></h2>
-          <div class="flex">
-            <div class="especialidades-box">
-              <i class="bi bi-filetype-js"></i>
-              <h3>JAVASCRIPT</h3>
-              <p>
-                conhecimento básico em JavaScript, estudado através de cursos,
-                pesquisas e videos na internet.
-              </p>
-            </div>
-            <!-- especialidades-box -->
-
-            <div class="especialidades-box">
-              <i class="bi bi-filetype-html"></i>
-              <h3>HTML</h3>
-              <p>
-                cenhecimento básico em html, adquirido através de cursos
-                complementares.
-              </p>
-            </div>
-            <!-- especialidades-box -->
-
-            <div class="especialidades-box">
-              <i class="bi bi-filetype-css"></i>
-              <h3>CSS</h3>
-              <p>
-                conhecimento básico em css, também adquirido por cursos online.
-              </p>
-            </div>
-            <!-- especialidades-box -->
-          </div>
-          <!-- flex -->
-        </div>
-        <!-- interface -->
-      </section>
-      <!-- especialidades -->
-
-      <section class="sobre">
-        <div id="sobre" class="interface">
-          <div class="flex">
-            <div class="txt-sobre">
-              <h2>MUITO PRAZER, <span>SOU VINÍCIUS ANDRADE.</span></h2>
-              <p>
-                Me chamo Vinicius e estou cursando Engenharia de Software (
-                UniSenai ), estou no terceiro período e busco uma oportunidade
-                na área. Tenho diploma de ensino médio técnico ( em eletrônica )
-                formado em 2021 e já trabalhei como aux. de produção..
-              </p>
-              <p>desde já, agradeço.</p>
-              <div class="btn-social">
-                <a
-                  href="https://www.linkedin.com/in/vin%C3%ADcius-andrade-michaki-h%C3%BCbner-95b612266"
-                >
-                  <button><i class="bi bi-linkedin"></i></button
-                ></a>
-                <a href="https://whatsapp.com/dl/"
-                  ><button><i class="bi bi-whatsapp"></i></button
-                ></a>
-                <a href="https://github.com/V1N1nam"
-                  ><button><i class="bi bi-github"></i></button
-                ></a>
-              </div>
-            </div>
-            <!-- txt-sobre-->
-          </div>
-          <!-- flex -->
-        </div>
-        <!-- interface -->
-      </section>
-      <!-- sobre -->
-
-      <section class="portifolio">
-        <div id="projetos" class="interface">
-          <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
-          <div class="flex">
-            <div
-              class="img-port"
-              style="background-image: url(../../images/devBurguer.png)"
-            >
-              <div class="overlay">
-                <a href="https://cardapio-online-blond.vercel.app/"
-                  >Projeto 1</a
-                >
-              </div>
-            </div>
-            <div
-              class="img-port"
-              style="background-image: url(../../images/nodeProject.png)"
-            >
-              <div class="overlay">
-                <a href="https://github.com/V1N1nam/Node_CRUD">Projeto 2</a>
-              </div>
-            </div>
-            <div
-              class="img-port"
-              style="background-image: url(../../images/breve.jpg.png)"
-            >
-              <div class="overlay">Projeto 3</div>
-            </div>
-          </div>
-          <!-- flex -->
-          <p class="txt_por">
-            <span>PROJETO 1</span>: Sistema interativo para uma hambúrgueria
-            onde o cliente escolhe itens do cardápio, o total do pedido é
-            calculado automaticamente e, ao final, o resumo do pedido é enviado
-            para o WhatsApp do estabelecimento. O projeto utiliza HTML para
-            estruturação, CSS para o design e JavaScript para o cálculo e envio
-            do pedido. Para mais informações *
-            <a href="https://github.com/V1N1nam/Site_Hamburguer"
-              >Repositório git hub</a
-            >
-            *
+      <div class="container">
+        <div class="div-content-main">
+          <p class="texto-1">
+            Eleve seu negócio digital a outro nível!
+            <strong>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL.</strong>
           </p>
-          <!-- Projeto 1 -->
-
-          <p class="txt_por">
-            <span>PROJETO 2</span>: Projeto de estudo em Node.js com PostgreSQL,
-            implementando um CRUD básico (Create, Read, Update, Delete) com
-            integração ao banco de dados. Desenvolvido para aprimorar meus
-            conhecimentos em APIs RESTful e manipulação de dados. Para mais
-            informações *
-            <a href="https://github.com/V1N1nam/Node_CRUD">
-              Repositório git hub</a
-            >
-            *
-          </p>
-          <!-- Projeto 2-->
-
-          <p class="txt_por"><span>PROJETO 3</span>: <a href=""> </a></p>
-          <!-- Projeto 3-->
-        </div>
-        <!-- interface -->
-      </section>
-      <!-- portifolio -->
-
-      <!-- form -->
-    </main>
-
-    <footer>
-      <div class="interface">
-        <div class="line-footer">
-          <div class="flex">
-            <div class="logo-footer">
-              <img src="../../images/logo.png" alt="Logo VINI" />
-            </div>
-            <!-- logg-footer -->
-            <div class="btn-social">
-              <a
-                href="https://www.linkedin.com/in/vin%C3%ADcius-andrade-michaki-h%C3%BCbner-95b612266"
-              >
-                <button><i class="bi bi-linkedin"></i></button
-              ></a>
-              <a href="https://whatsapp.com/dl/"
-                ><button><i class="bi bi-whatsapp"></i></button
-              ></a>
-              <a href="https://github.com/V1N1nam"
-                ><button><i class="bi bi-github"></i></button
-              ></a>
-            </div>
+          <h1 class="texto-1">
+            Olá! Sou o Vinicius, desenvolvedor Front-end com especialidade em
+            JavaScript, NodeJS, React, HTML e CSS. Ajudo pequenos negócios e
+            designers a colocarem em prática boas ideias.
+          </h1>
+          <div class="div-content-button">
+            <a href="../portfolio/Home.html">Me Conheça</a>
+            <a href="../portfolio/Contato.html">Contato</a>
           </div>
         </div>
-        <!-- line-footer -->
-        <div class="line-footer borda">
-          <p>
-            <i class="bi bi-envelope-at-fill"></i
-            ><a href="mailto:contato.hubnervini@gmail.com"
-              >contato.hubnervini@gmail.com</a
-            >
-          </p>
-        </div>
-        <!-- line-footer -->
+        <div
+          class="img-port"
+          style="background-image: url(../portfolio/images/sidney.png)"
+        ></div>
       </div>
-      <!-- interface -->
-    </footer>
+    </main>
+    <footer></footer>
   </body>
 </html>
